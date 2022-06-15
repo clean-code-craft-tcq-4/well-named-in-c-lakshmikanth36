@@ -37,9 +37,9 @@ void testPairToNumber( enum MajorColor major,enum MinorColor minor,int expectedP
 }
 
 int main() {
-    testNumberToPair(4, WHITE, BROWN);
-    testNumberToPair(5, WHITE, SLATE);
-    testPairToNumber(BLACK, ORANGE, 12);
-    testPairToNumber(VIOLET, SLATE, 25);
+    testNumberToPair(10, WHITE, BROWN);
+    testNumberToPair(10, WHITE, SLATE);
+    testPairToNumber(BLACK, ORANGE, 16);
+    testPairToNumber(VIOLET, SLATE, 20);
     return 0;
 }
