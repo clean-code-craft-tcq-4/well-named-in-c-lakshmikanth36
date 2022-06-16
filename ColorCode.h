@@ -13,8 +13,8 @@ typedef struct {
 
 extern const char* MajorColors[];
 extern const char* MinorColors[];
-extern int numberOfMajorColors ;
-extern int numberOfMinorColors ;
+extern int numberOfMajorColors;
+extern int numberOfMinorColors;
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
