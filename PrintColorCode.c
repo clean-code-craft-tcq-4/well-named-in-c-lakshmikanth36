@@ -10,7 +10,7 @@ void PrintColorCode()
     {
         for(MinorColor = 0; MinorColor < numberOfMinorColors; MinorColor++)
         {
-            printf(" %d\t  %s\t  %s\t\n",PairNumber++, MajorColors[MajorColor], MinorColors[MinorColor]);
+            printf(" %d\t  %s\t  %s\t\n",PairNumber++, majorColors[MajorColor], minorColors[MinorColor]);
         }
       
     }
