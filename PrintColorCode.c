@@ -1,3 +1,5 @@
+#include "ColorCode.h"
+
 void PrintColorCode()
 {
     int MajorColor;
